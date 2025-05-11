@@ -1,0 +1,98 @@
+
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wahaj.De - Kaufen und Verkaufen</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            background-color: #fefaf6;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #ffe8d6;
+            padding: 20px;
+            text-align: center;
+        }
+        h1 {
+            margin: 0;
+        }
+        .button {
+            background-color: #f77f00;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            font-size: 16px;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+        .categories {
+            display: flex;
+            justify-content: space-around;
+            margin: 20px;
+        }
+        .category {
+            text-align: center;
+            background-color: #fff;
+            padding: 10px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            width: 20%;
+        }
+        .ads {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 20px;
+            padding: 20px;
+        }
+        .ad {
+            background-color: #fff;
+            border-radius: 10px;
+            padding: 10px;
+            box-shadow: 0 0 8px rgba(0,0,0,0.1);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Kaufen und Verkaufen Sie mit Wahaj.De</h1>
+        <button class="button">Anzeige aufgeben (1€)</button>
+    </header>
+    <section class="categories">
+        <div class="category">
+            <h3>Baby & Kind</h3>
+        </div>
+        <div class="category">
+            <h3>Haus & Garten</h3>
+        </div>
+        <div class="category">
+            <h3>Mode</h3>
+        </div>
+        <div class="category">
+            <h3>Elektronik</h3>
+        </div>
+    </section>
+    <section class="ads">
+        <div class="ad">
+            <h4>Holzgitterbett</h4>
+            <p>80€ – Berlin</p>
+        </div>
+        <div class="ad">
+            <h4>Esstisch mit 4 Stühlen</h4>
+            <p>150€ – München</p>
+        </div>
+        <div class="ad">
+            <h4>Kinderwagen</h4>
+            <p>100€ – Hamburg</p>
+        </div>
+        <div class="ad">
+            <h4>Damenhandtasche</h4>
+            <p>25€ – Köln</p>
+        </div>
+    </section>
+</body>
+</html>
